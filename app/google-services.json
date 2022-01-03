@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "561815774182",
+    "project_id": "mad-e-commerce-app",
+    "storage_bucket": "mad-e-commerce-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561815774182:android:64a2b8e1fe4672f75cec27",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561815774182-lgvnj2cagulaml03f7srrhvisnoqvseg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPD2odY3bIGt6URPhDB7dSMIG-tzTOakA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561815774182-lgvnj2cagulaml03f7srrhvisnoqvseg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

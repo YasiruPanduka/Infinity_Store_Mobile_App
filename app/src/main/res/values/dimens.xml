@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="alpha_value" type="dimen" format="float">0.5</item>
+    <item name="alpha_dark" type="dimen" format="float">0.8</item>
+    <dimen name="paddingLeft">10dp</dimen>
+    <dimen name="paddingtop">10dp</dimen>
+    <dimen name="paddingItem">5dp</dimen>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contextClickable="true"
+    android:textAlignment="center"
+    android:textDirection="firstStrongRtl"
+    tools:context=".PaymentMethods">
+
+    <ImageView
+        android:id="@+id/BGYelloImg"
+        android:layout_width="224dp"
+        android:layout_height="225dp"
+        android:contentDescription="@string/backgroundyelloimg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.994"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/dec3_png"
+        tools:ignore="ImageContrastCheck" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/PayMTitlebar"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="@color/HeadBar"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/PayMTitle"
+        android:layout_width="232dp"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:text="@string/payment_methods"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/PayMTitlebar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.593"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/PayMTitlebar"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/PayDbackArrow"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/right_arrowiconfinal_png"
+        android:contentDescription="@string/shipdbackaroow"
+        android:onClick="backward"
+        app:layout_constraintBottom_toBottomOf="@+id/PayMTitlebar"
+        app:layout_constraintEnd_toStartOf="@+id/PayMTitle"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/PayMTitlebar"
+        app:layout_constraintTop_toTopOf="@+id/PayMTitlebar"
+        app:layout_constraintVertical_bias="0.516"
+        app:srcCompat="@drawable/ee"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/PayDNoticeView"
+        android:layout_width="359dp"
+        android:layout_height="205dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/notice_box"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/if_you_are_a_covid_19_patient_please_use_the_card_payment_option"
+        android:textColor="#D50000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PayDCashBut" />
+
+    <Button
+        android:id="@+id/PayDCashBut"
+        android:layout_width="359dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/cash_on_del"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PayDCardbut"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/PayDCardbut"
+        android:layout_width="359dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/card_payment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PayMTitlebar"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

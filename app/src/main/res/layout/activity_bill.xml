@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bill">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="@color/HeadBar"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="233dp"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:text="@string/bill"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="367dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="304dp"
+        android:background="@color/HeadBar"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar6" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar6"
+        android:layout_width="369dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/HeadBar"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="142dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/shipd_cost_tag"
+        android:gravity="center_vertical"
+        android:text="@string/sub_total"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
+        app:layout_constraintEnd_toStartOf="@+id/SubTag"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/toolbar2"
+        app:layout_constraintTop_toTopOf="@+id/toolbar2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/SubTag"
+        android:layout_width="142dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="12dp"
+        android:contentDescription="@string/shipd_cost_tag"
+        android:gravity="right|center_vertical"
+        android:text="Rs.0.00"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar2"
+        app:layout_constraintTop_toTopOf="@+id/toolbar2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="367dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/HeadBar"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2" />
+
+    <TextView
+        android:id="@+id/ShipCostTag"
+        android:layout_width="142dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="12dp"
+        android:contentDescription="@string/shipd_cost_tag"
+        android:gravity="right|center_vertical"
+        android:text="Rs.0.00"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar4"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar4"
+        app:layout_constraintTop_toTopOf="@+id/toolbar4" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="367dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/HeadBar"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar4" />
+
+    <TextView
+        android:id="@+id/TotalTag"
+        android:layout_width="142dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="12dp"
+        android:contentDescription="@string/shipd_cost_tag"
+        android:gravity="right|center_vertical"
+        android:text="Rs.0.00"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintTop_toTopOf="@+id/toolbar3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:layout_width="142dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/shipd_cost_tag"
+        android:gravity="center_vertical"
+        android:text="@string/total"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toTopOf="@+id/toolbar3" />
+
+    <TextView
+        android:layout_width="142dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/shipd_cost_tag"
+        android:gravity="center_vertical"
+        android:text="@string/shipping_cost"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar4"
+        app:layout_constraintEnd_toStartOf="@+id/ShipCostTag"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/toolbar4"
+        app:layout_constraintTop_toTopOf="@+id/toolbar4"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/BillCancelBt"
+        android:layout_width="175dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#F16A2B"
+        android:contentDescription="@string/ship_dc_heckout_but"
+        android:text="@android:string/cancel"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/BillChekoutBt"
+        app:layout_constraintHorizontal_bias="0.393"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3"
+        app:layout_constraintVertical_bias="0.478"
+        tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/BillChekoutBt"
+        android:layout_width="169dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#4CAF50"
+        android:contentDescription="@string/ship_dc_heckout_but"
+        android:text="@string/checkout"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3"
+        app:layout_constraintVertical_bias="0.478"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/productTitle"
+        android:layout_width="343dp"
+        android:layout_height="39dp"
+        android:gravity="center_vertical"
+        android:text="Product Title"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/qutText"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar6"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="@+id/toolbar6"
+        app:layout_constraintTop_toTopOf="@+id/toolbar6"
+        app:layout_constraintVertical_bias="0.432" />
+
+    <TextView
+        android:id="@+id/qutText"
+        android:layout_width="183dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_vertical"
+        android:text="Rs.0.00 X 2"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar6"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar6"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="@+id/toolbar6" />
+
+    <TextView
+        android:id="@+id/rsTag"
+        android:layout_width="82dp"
+        android:layout_height="31dp"
+        android:gravity="right|center_vertical"
+        android:text="Rs.0.00"
+        android:textColor="#D55D5D"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar6"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar6"
+        app:layout_constraintHorizontal_bias="0.633"
+        app:layout_constraintStart_toEndOf="@+id/qutText"
+        app:layout_constraintTop_toBottomOf="@+id/productTitle"
+        app:layout_constraintVertical_bias="0.809" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

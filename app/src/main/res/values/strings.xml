@@ -1,0 +1,173 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Infinity!</string>
+    <string name="content_description_logo">logo</string>
+    <string name="contdecoration01">Decoration01</string>
+    <string name="login">Login</string>
+    <string name="please_sign_in_to_continue">Please sign-in to continue</string>
+    <string name="Textpassword">Password</string>
+    <string name="Texte_mail">E-mail</string>
+    <string name="Textlogin">Login</string>
+    <string name="Hintravindu123_gmail_com">ravindu123@gmail.com</string>
+    <string name="HintPw">**********</string>
+    <string name="Textsign_up">Sign-Up</string>
+    <string name="Textdon_t_have_an_account">Do not have an account?</string>
+    <string name="HintPassword">Password</string>
+    <string name="createAccount">Create Account</string>
+    <string name="createButton">Create</string>
+    <string name="CreateButton">CREATE</string>
+    <string name="Welcome">Welcome to Infinity!</string>
+    <string name="FirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="DateOfBirth">Date Of Birth</string>
+    <string name="PhoneNo">Phone No</string>
+    <string name="AlreadyHaveAccount">Already have an account?</string>
+    <string name="Instruction"><![CDATA[When you create account you are agree to Our terms & conditions.]]></string>
+    <string name="BackArrow">Back Arrow</string>
+    <string name="HiRavindu">Hi...   Ravindu</string>
+    <string name="AllRights">All Right Reseverd @TeamInfinity</string>
+    <string name="Edit">Edit</string>
+    <string name="Yasiru">Yasiru Panduka</string>
+    <string name="profile">ProfilePc</string>
+    <string name="ReviewButton">ReviewButton</string>
+    <string name="CartButton">CartButton</string>
+    <string name="dec2">decoration2</string>
+    <string name="Name" />
+    <string name="FullName">Full Name</string>
+    <string name="Discard">Discard</string>
+    <string name="edit">edit</string>
+    <string name="WishList">WishList</string>
+    <string name="ProductName" />
+    <string name="ProductName1">Product Name</string>
+    <string name="Price1">Rs.500.00</string>
+    <string name="Price2">RS.530.00</string>
+    <string name="Price3">rs.750.00</string>
+    <string name="Price4">RS.321.00</string>
+    <string name="Price5">RS.985.00</string>
+    <string name="bin">bin</string>
+    <string name="sign_in">sign in</string>
+    <string name="Hi">Hi...</string>
+    <string name="Profile">Profile</string>
+    <string name="saveBtn">SAVE</string>
+    <string name="logout">LOGOUT</string>
+    <string name="EmailHint">Email</string>
+    <string name="forgetPW">Forget Password?</string>
+    <string name="NotVerfiedTxet">Email Not Verfied!</string>
+    <string name="VerifyNow">VERIFY NOW</string>
+    <string name="Hey">HEY!</string>
+    <string name="ResetPw">Reset Password</string>
+    <string name="Infinity">INFINITY</string>
+    <string name="VERSION">VERSION 0.0.01BETA</string>
+    <string name="designby"><![CDATA[Design & Build by TeamInfinity]]></string>
+    <string name="Adding_products">ADD PRODUCTS</string>
+    <string name="Enter_Product_Name">Enter Product Name</string>
+    <string name="Enter_Product_Price">Enter Product Price</string>
+    <string name="Enter_Product_Description">Enter Product Description</string>
+    <string name="ADD">ADD PRODUCT</string>
+    <string name="Whish_List_Image_Des">Wish List Image View</string>
+    <string name="ProductDescription">Product Description</string>
+    <string name="productName">Name</string>
+    <string name="productPrice">Price(Rs.)</string>
+    <string name="ProductDescription1">Description</string>
+    <string name="descptionhint">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="AddWishList">Add To WishList</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="EmptyWishList">Empty WishList!</string>
+    <string name="DEVELOPERS">DEVELOPERS</string>
+    <string name="THILINANANAYAKKRA">THILINA NANAYAKKRA</string>
+    <string name="YASIRUPANDUKA">YASIRU PANDUKA</string>
+    <string name="RAVINDURASANGA">RAVINDU RASANGA</string>
+    <string name="SUDHARISADAMINI">SUDHARI SADAMINI</string>
+    <string name="ABOUTUS">ABOUTUS</string>
+    <string name="TEAMINFINITY">TEAM INFINITY</string>
+
+
+    <!--Ravindu Rasanga-->
+    <string name="backgroundyelloimg">BackgroundYelloImg</string>
+    <string name="shipdbackaroow">ShipDbackAroow</string>
+    <string name="shipping_detailsTitle">Shipping Details</string>
+    <string name="ShipDNameTag">Name</string>
+    <string name="ShipDNameField">Name</string>
+    <string name="shipdmobilenumberfild">ShipDMobileNumberFild</string>
+    <string name="_076_456_6754">076-456-6754</string>
+    <string name="ShipDmobile_number">Mobile Number</string>
+    <string name="house_apartment_no">House/Apartment No</string>
+    <string name="shipdhousenotag">shipdHouseNoTag</string>
+    <string name="_412_a">412/A</string>
+    <string name="address_line_1">Address Line 1</string>
+    <string name="line_1">Line 1</string>
+    <string name="address_line_2">address line 2</string>
+    <string name="adress_line_2">Address Line 2</string>
+    <string name="line_2">Line 2</string>
+    <string name="city">City</string>
+    <string name="province">Province</string>
+
+    //Spinner Dropdown
+    <string name="ShipD_Province_Dropdown">Select Province</string>
+    <string name="cost_bg_bar">Cost Bg Bar</string>
+    <string name="shipd_cost_tag">shipD cost tag</string>
+    <string name="shipping_cost">Shipping Cost</string>
+    <string name="_290_00">290.00</string>
+    <string name="shipd_rs_tag">ShipD Rs tag</string>
+    <string name="rs">Rs.</string>
+    <string name="checkout">Checkout</string>
+    <string name="ship_dc_heckout_but">Ship DC heckout But</string>
+    <string name="confirm">Confirm</string>
+    <string name="rs_290_00">Rs.290.00</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="adress_line_1">Adress Line 1</string>
+    <string name="adress_line_3">Adress Line 2</string>
+    <string name="payment_methods">Payment Methods</string>
+    <string name="if_you_are_a_covid_19_patient_please_use_the_card_payment_option">If you are a COVID-19 patient, please use the card payment option.</string>
+    <string name="card_payment">Card Payment</string>
+    <string name="card_number">Card Number</string>
+    <string name="cvv">CVV</string>
+    <string name="xxx">XXX</string>
+    <string name="expire_date">Expire Date</string>
+    <string name="card_type">Card Type</string>
+    <string name="xxxx_xxxx_xxxx_xxxx">XXXX-XXXX-XXXX-XXXX</string>
+    <string name="mm_yy">MM/YY</string>
+    <string name="confirmationTitle">Confirmation</string>
+    <string name="order_placed">Order Placed</string>
+    <string name="thank_you">Thank You</string>
+    <string name="confirmation_img">Confirmation Img</string>
+    <string name="your_order_will_be_delivered_within_3_working_days">Your order will be delivered within 3 working days.</string>
+    <string name="if_you_are_a_covid_19_patient_please_follow_the_relevant_health_instructions">If you are a COVID-19 patient please follow the relevant health instructions.</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="order_placed2">Order Placed !</string>
+    <string name="string_order_placed2" />
+    <string name="city1">City</string>
+    <string name="mobile_number1">Mobile Number</string>
+    <string name="name">Name</string>
+    <string name="house_no">House No</string>
+    <string name="address_line_11">Address Line 1</string>
+    <string name="address_line_22">Address Line 2</string>
+    <string name="province1">Province</string>
+    <string name="update">UPDATE</string>
+    <string name="bill">BILL</string>
+    <string name="sub_total">Sub Total</string>
+    <string name="shipping_cost1">Shipping Cost</string>
+    <string name="total">Total</string>
+    <string name="shipping_details_edit">Shipping Details Edit</string>
+    <string name="Buy">Buy</string>
+    <string-array name="Province">
+        <item>Central Province</item>
+        <item>Eastern Province</item>
+        <item>North Central Province</item>
+        <item>Northern Province</item>
+        <item>North Western Province</item>
+        <item>Sabaragamuwa Province</item>
+        <item>Sothern Province</item>
+        <item>Uva Province</item>
+        <item>Western Province</item>
+    </string-array>
+
+    <string-array name="CardType">
+        <item>Visa</item>
+        <item>Master</item>
+        <item>American Express</item>
+    </string-array>
+
+
+
+</resources>

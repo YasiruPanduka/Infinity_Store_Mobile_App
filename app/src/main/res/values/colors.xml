@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FFB521</color>
+    <color name="teal_700">#FFB521</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="LoginSubTitle">#FFC95D</color>
+    <color name="Yellow">#FFB521</color>
+    <color name="DarkYellow">#FFAA00</color>
+    <color name="LightYellow">#ffc653</color>
+    <color name="TextInstrucColorCode" />
+    <color name="TextInstrColorCode">#707070</color>
+    <color name="greenButton">#00B95D</color>
+    <color name="redButton">#FC4804</color>
+    <color name="hintTextColor">#5F5F5F</color>
+    <color name="TextFieldBackgroundColor">#FFDBDBDB</color>
+    <color name="textFied_Background_Colors_add_product">#E4E4E4</color>
+    <color name="BackGrounBtn_Color">#1B1464</color>
+
+
+    <!--RavinduRasanga-->
+    <color name="HeadBar">#C5C5C5</color>
+    <color name="Box">#5C5C5C</color>
+    <color name="red">#F44336</color>
+
+</resources>

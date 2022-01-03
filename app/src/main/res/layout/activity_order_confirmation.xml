@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderConfirmation">
+
+    <ImageView
+        android:id="@+id/BGYelloImg"
+        android:layout_width="224dp"
+        android:layout_height="225dp"
+        android:contentDescription="@string/backgroundyelloimg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.994"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/dec3_png"
+        tools:ignore="ImageContrastCheck" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/OrderConTitleBox"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="@color/HeadBar"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/OrderConTitle"
+        android:layout_width="232dp"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:text="@string/confirmationTitle"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/OrderConTitleBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/OrderConTitleBox"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="314dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/order_placed2"
+        android:textColor="#43A047"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/OrderConTitleBox" />
+
+    <ImageView
+        android:id="@+id/ConfirmPic"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/confirmation_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/confirmation" />
+
+    <TextView
+        android:id="@+id/Confirmthank"
+        android:layout_width="314dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/alice"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/thank_you"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ConfirmPic" />
+
+    <TextView
+        android:id="@+id/DeliveryNoticeView"
+        android:layout_width="312dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/your_order_will_be_delivered_within_3_working_days"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Confirmthank" />
+
+    <TextView
+        android:id="@+id/ConfirmCovidNoticeView"
+        android:layout_width="312dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/final_covid19_notice"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/if_you_are_a_covid_19_patient_please_follow_the_relevant_health_instructions"
+        android:textColor="#FF0D0D"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DeliveryNoticeView" />
+
+    <Button
+        android:id="@+id/ConfirmBackHomeBut"
+        android:layout_width="296dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#4CAF50"
+        android:contentDescription="@string/ship_dc_heckout_but"
+        android:text="@string/back_to_home"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:onClick="orderplacedreturn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ConfirmCovidNoticeView"
+        app:layout_constraintVertical_bias="0.842"
+        tools:ignore="TextContrastCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

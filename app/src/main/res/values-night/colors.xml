@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hintTextColor">#5F5F5F</color>
+    <color name="TextFieldBackgroundColor">#C5C5C5</color>
+    <color name="textFied_Background_Colors_add_product">#D5D5D5</color>
+</resources>

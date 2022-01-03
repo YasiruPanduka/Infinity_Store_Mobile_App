@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Yasiru/Desktop/MyProject/Team_Infinity/Android_Studio/UI/app/src/main/res/drawable/custom_input.xml" value="0.20277777777777778" />
+        <entry key="..\:/Users/Yasiru/Desktop/MyProject/Team_Infinity/Android_Studio/UI/app/src/main/res/drawable/notice_box.xml" value="0.21359649122807017" />
+        <entry key="..\:/Users/Yasiru/Desktop/MyProject/Team_Infinity/Android_Studio/UI/app/src/main/res/font/alice.xml" value="0.20277777777777778" />
+        <entry key="..\:/Users/Yasiru/Desktop/MyProject/Team_Infinity/Android_Studio/UI/app/src/main/res/layout/activity_about_us.xml" value="0.29736842105263156" />
+        <entry key="..\:/Users/Yasiru/Desktop/MyProject/Team_Infinity/Android_Studio/UI/app/src/main/res/layout/activity_add_products.xml" value="0.29736842105263156" />
+        <entry key="..\:/Users/Yasiru/Desktop/MyProject/Team_Infinity/Android_Studio/UI/app/src/main/res/layout/activity_bill.xml" value="0.25" />
+        <entry key="..\:/Users/Yasiru/Desktop/MyProject/Team_Infinity/Android_Studio/UI/app/src/main/res/layout/activity_home.xml" value="0.29736842105263156" />
+        <entry key="..\:/Users/Yasiru/Desktop/MyProject/Team_Infinity/Android_Studio/UI/app/src/main/res/layout/activity_login.xml" value="0.29736842105263156" />
+        <entry key="..\:/Users/Yasiru/Desktop/MyProject/Team_Infinity/Android_Studio/UI/app/src/main/res/layout/activity_order_confirmation.xml" value="0.18" />
+        <entry key="..\:/Users/Yasiru/Desktop/MyProject/Team_Infinity/Android_Studio/UI/app/src/main/res/layout/activity_product_detailed.xml" value="0.29736842105263156" />
+        <entry key="..\:/Users/Yasiru/Desktop/MyProject/Team_Infinity/Android_Studio/UI/app/src/main/res/layout/activity_shipping_details.xml" value="0.1850877192982456" />
+        <entry key="..\:/Users/Yasiru/Desktop/MyProject/Team_Infinity/Android_Studio/UI/app/src/main/res/layout/activity_user_profile.xml" value="0.1850877192982456" />
+        <entry key="..\:/Users/Yasiru/Desktop/MyProject/Team_Infinity/Android_Studio/UI/app/src/main/res/layout/item.xml" value="0.29736842105263156" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

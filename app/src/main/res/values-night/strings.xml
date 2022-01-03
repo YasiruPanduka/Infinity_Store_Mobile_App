@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Profile">Profile</string>
+    <string name="saveBtn">SAVE</string>
+    <string name="logout">LOGOUT</string>
+    <string name="EmailHint">Email</string>
+    <string name="forgetPW">Forget Password?</string>
+    <string name="NotVerfiedTxet">Email Not Verfied!</string>
+    <string name="VerifyNow">VERIFY NOW</string>
+    <string name="Infinity">INFINITY</string>
+    <string name="designby"><![CDATA[Design & Build by TeamInfinity]]></string>
+    <string name="Enter_Product_Name">Enter Product Name</string>
+    <string name="Enter_Product_Price">Enter Product Price</string>
+    <string name="ADD">ADD PRODUCT</string>
+</resources>
